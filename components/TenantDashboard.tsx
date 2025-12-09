@@ -303,7 +303,43 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
 
         {/* Profile & About Placeholder */}
         {activeTab === TenantTab.PROFILE && <div className="p-8 text-center">User: {user.email}</div>}
-        {activeTab === TenantTab.ABOUT && <div className="p-8 text-center">About Content</div>}
+        {activeTab === TenantTab.ABOUT && (
+  <div className="p-8 max-w-4xl mx-auto space-y-6 text-center">
+    <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+      About Smart Home Rental AI
+    </h2>
+    <p className="text-gray-600 text-base sm:text-lg">
+      This platform helps owners list properties in minutes and uses AI to match
+      them with the most suitable tenants, supported by immersive AR/VR
+      visualizations for each home. [web:42][web:47]
+    </p>
+
+    <div className="grid gap-6 sm:grid-cols-3 text-left">
+      <div className="bg-white/70 rounded-2xl shadow-sm p-4">
+        <h3 className="font-semibold text-gray-900 mb-1">For Owners</h3>
+        <p className="text-sm text-gray-600">
+          Add homes, manage listings, and see which properties get the most
+          interest from tenants.
+        </p>
+      </div>
+      <div className="bg-white/70 rounded-2xl shadow-sm p-4">
+        <h3 className="font-semibold text-gray-900 mb-1">For Tenants</h3>
+        <p className="text-sm text-gray-600">
+          Browse AI‑ranked rentals, explore 360° views, and save favorites in
+          one place.
+        </p>
+      </div>
+      <div className="bg-white/70 rounded-2xl shadow-sm p-4">
+        <h3 className="font-semibold text-gray-900 mb-1">Powered by Supabase</h3>
+        <p className="text-sm text-gray-600">
+          All users, properties, and favorites are stored in a secure cloud
+          database, so data is shared and persistent across devices. [web:12][web:15]
+        </p>
+      </div>
+    </div>
+  </div>
+)}
+
 
       </main>
 
