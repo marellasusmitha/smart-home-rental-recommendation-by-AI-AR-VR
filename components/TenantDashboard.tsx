@@ -191,14 +191,14 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
               </span>
             </div>
             
-            <div className="hidden md: flex md:items-center md:space-x-8 h-full">
+            <div className="hidden md:flex md:items-center md:space-x-8 h-full">
               {renderTabButton(TenantTab.FIND, 'Find Rentals')}
               {renderTabButton(TenantTab.AI_PICKS, 'AI Picks', <Sparkles size={16} />)}
               {renderTabButton(TenantTab.FAVORITES, 'Favorites')}
               {renderTabButton(TenantTab.ABOUT, 'About')}
             </div>
 
-            <div className="hidden md: flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-4">
               <span className="text-sm text-gray-700 font-medium">Hi, {user.name}</span>
               <button onClick={() => setActiveTab(TenantTab.PROFILE)} className="p-2 rounded-full text-gray-400 hover:text-gray-500"><UserIcon size={20} /></button>
               <button onClick={onLogout} className="p-2 rounded-full text-red-400 hover:text-red-500"><LogOut size={20} /></button>
