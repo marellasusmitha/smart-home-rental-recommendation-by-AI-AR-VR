@@ -316,8 +316,8 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
       <div className="bg-white/70 rounded-2xl shadow-sm p-4">
         <h3 className="font-semibold text-gray-900 mb-1">For Owners</h3>
         <p className="text-gray-600 text-base sm:text-lg">
-  This platform helps owners list properties in minutes and uses intelligent matching logic to suggest the most suitable homes for tenants, supported by immersive AR/VR visualizations for each property.
-</p>
+          This platform helps owners list properties in minutes and uses intelligent matching logic to suggest the most suitable homes for tenants, supported by immersive AR/VR visualizations for each property.
+        </p>
       </div>
       <div className="bg-white/70 rounded-2xl shadow-sm p-4">
         <h3 className="font-semibold text-gray-900 mb-1">For Tenants</h3>
@@ -329,8 +329,8 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
       <div className="bg-white/70 rounded-2xl shadow-sm p-4">
         <h3 className="font-semibold text-gray-900 mb-1">Powered by Supabase</h3>
         <p className="text-sm text-gray-600">
-  All users, properties, and favorites are stored in a secure cloud database, ensuring data consistency and accessibility across devices.
-</p>
+          All users, properties, and favorites are stored in a secure cloud database, ensuring data consistency and accessibility across devices.
+        </p>
       </div>
     </div>
   </div>
