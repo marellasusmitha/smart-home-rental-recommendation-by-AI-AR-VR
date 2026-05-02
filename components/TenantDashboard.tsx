@@ -309,7 +309,7 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
       About Smart Home Rental AI
     </h2>
     <p className="text-gray-600 text-base sm:text-lg">
-       This platform helps owners list properties in minutes and uses intelligent matching logic to suggest the most suitable homes for tenants, supported by immersive AR/VR visualizations for each property.All users, properties, and favorites are stored in a secure cloud database, ensuring data consistency and accessibility across devices.
+       This platform helps owners list properties in minutes and uses intelligent matching logic to suggest the most suitable homes for tenants, supported by immersive AR/VR visualizations for each property. 
     </p>
 
     <div className="grid gap-6 sm:grid-cols-3 text-left">
@@ -331,7 +331,7 @@ const TenantDashboard: React.FC<TenantDashboardProps> = ({ user, onLogout }) => 
         <h3 className="font-semibold text-gray-900 mb-1">Powered by Supabase</h3>
         <p className="text-sm text-gray-600">
           All users, properties, and favorites are stored in a secure cloud
-          database, so data is shared and persistent across devices. [web:12][web:15]
+          database, so data is shared and persistent across devices.
         </p>
       </div>
     </div>
